@@ -99,7 +99,7 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 1px solid gold;
-  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .mapa{
@@ -118,6 +118,7 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 1px solid gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
 }
 
@@ -137,6 +138,7 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 1px solid gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -156,9 +158,30 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 1px solid gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
+ 
+.amuletos:hover{
 
+    max-width: 250px;
+    max-height: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
 .alinhamento{
 
     display: flex;
@@ -283,4 +306,67 @@ padding: 15px 20px;
     border-radius: 5px;
 }
 
+.Habilidades:hover{
 
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+
+.mapa:hover{
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+transform: scale(1.03);
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+   
+}
+
+
+.bestiario:hover{
+
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+transform: scale(1.03);
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+
+
+}
