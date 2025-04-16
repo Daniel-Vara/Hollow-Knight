@@ -1,0 +1,286 @@
+body{
+
+    background-color: rgb(70, 69, 69)
+}
+
+h1{
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(171, 170, 170));
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 5px solid goldenrod;
+    padding: 20px;
+    color: white
+    
+}
+
+section{
+
+    background-color: #2e2e2e;
+    color: white;
+}
+
+
+
+.menu a:hover{
+    background-color: rgb(138, 138, 138);
+    text-decoration: none;
+}
+
+.imagem-amuletos{
+    width: 250px;
+    display: block;
+}
+
+
+.container{ 
+    background-color: #2e2e2e;
+
+}
+
+
+.imagem-habilidades{
+
+ 
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    display: block;
+    margin: 20px auto 0 auto;
+    
+}
+
+.GIF{
+
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+ padding: 20px;
+ display: block;
+  margin: 20px auto; 
+  border-radius: 50%;
+}
+
+.Mapinha{
+
+    width: 250px;
+    height: 180px;
+   
+    text-align: center;
+    display: block;
+    
+}
+
+.best{
+
+    width: 250px;
+    height: 170px;
+   
+    display: block;
+}
+
+
+.bestiario{
+
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+  
+}
+
+.mapa{
+
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+    
+}
+
+.Habilidades{
+
+    max-width: 250px;
+    max-height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+
+}
+
+.amuletos{
+
+    max-width: 250px;
+    max-height: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid gold;
+
+}
+
+.alinhamento{
+
+    display: flex;
+    justify-content:first baseline;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(70, 69, 69)
+}
+
+.inventário{
+
+    
+    background-color: rgb(70, 69, 69)
+}
+
+
+
+.contatar{
+
+    color: white;
+    background-color: rgb(70, 69, 69)
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(99, 99, 99));
+    padding: 30px;
+    margin-top: 0px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #5f5c5c;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0066cc;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0052a3;
+}
+
+.wiki{
+
+    color: gold;
+    text-decoration: none;
+}
+
+
+.trocar{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+div img{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 35%;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    background-color: #000;
+    padding: 10px 20px;
+    
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+ 
+    display: block;
+color: white;
+text-decoration: none;
+padding: 15px 20px;
+}
+
+.logo-navbar {
+    position:absolute;
+    left: 50%;
+    height: 40px;
+    
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
